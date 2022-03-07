@@ -19,15 +19,15 @@ public class ArrayMethods {
     }
 
     public static boolean containsNumber(int number, int[] array) {
-        boolean isContained = false;
         for (int i = 0; i < array.length; i++) {
-            if (number == array[i]) {
-                isContained = true;
+            System.out.println(array[i]);
+            if (number == number) {
+                return true;
             } else {
-                isContained = false;
+                return false;
             }
 
         }
-        return isContained;
+        return false;
     }
 }
